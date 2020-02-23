@@ -1,6 +1,6 @@
 <?php
 
-echo '<h1>OpenShift PHP example code...</h1>'
+echo '<h1>OpenShift PHP example code...</h1>';
 echo '<table>';
 echo "<tr><td>Today is</td><td><b>" . date("Y/m/d") . "</b></td></tr>";
 
