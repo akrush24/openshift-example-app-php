@@ -1,10 +1,10 @@
 <?php
 
-echo "Today is " . date("Y/m/d") . "<br>";
+echo "Today is: " . date("Y/m/d") . "<br>";
 
-echo gethostname(); // может вывести например: sandie
+echo "Node hostname: " . gethostname(); // может вывести например: sandie
 echo '<br>';
-echo gethostbyaddr($_SERVER['REMOTE_ADDR']);
+echo "Node IP: " . gethostbyaddr($_SERVER['REMOTE_ADDR']);
 echo '<br>';
 
 
